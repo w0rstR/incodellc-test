@@ -1,0 +1,32 @@
+{
+  "name": "incodellc-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:server": "nodemon ./src/app.ts --watch ./src/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19",
+    "reflect-metadata": "^0.1.13",
+    "tsc-watch": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "4.17.13",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^17.0.19",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
